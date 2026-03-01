@@ -4,7 +4,7 @@ Created on Fri Feb 27 21:00:35 2026
 
 @author: Shrinidhi
 """
-#made this function as to take inputs from a user, and create a UI using streamlit. def diabetes_pred is for predicting the outcome of given data
+#made this function as to take inputs from a user, and create a UI using streamlit. def diabetes_pred is for predicting the outcome of given data and in main we take the inputs
 import numpy as np
 import pickle
 import streamlit as st
@@ -54,3 +54,4 @@ def main():
 if __name__=='__main__':
 
     main()
+
